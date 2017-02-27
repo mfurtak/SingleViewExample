@@ -1,0 +1,8 @@
+*.dSYM.zip
+*.ipa
+fastlane/metadata/
+fastlane/report.xml
+fastlane/screenshots/
+production_com.mikefurtak.SingleViewGoogle.p12
+production_com.mikefurtak.SingleViewGoogle.pem
+production_com.mikefurtak.SingleViewGoogle.pkey
