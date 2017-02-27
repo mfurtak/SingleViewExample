@@ -193,7 +193,8 @@
 				TargetAttributes = {
 					C7B9DECD1E3BDE8600BD8520 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 8Z335XCFY2;
+						ProvisioningStyle = Manual;
 					};
 					C7B9DEE11E3BDE8700BD8520 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -412,10 +413,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8Z335XCFY2;
 				INFOPLIST_FILE = SingleViewGoogle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikefurtak.SingleViewGoogle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikefurtak.SingleViewGoogle2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "80ac6408-ccce-4886-9adc-c7d9ee422723";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.mikefurtak.SingleViewGoogle2";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8Z335XCFY2;
 				INFOPLIST_FILE = SingleViewGoogle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikefurtak.SingleViewGoogle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikefurtak.SingleViewGoogle2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "80ac6408-ccce-4886-9adc-c7d9ee422723";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.mikefurtak.SingleViewGoogle2";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +514,7 @@
 				C7B9DEF81E3BDE8700BD8520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7B9DEF91E3BDE8700BD8520 /* Build configuration list for PBXNativeTarget "SingleViewGoogleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				C7B9DEFB1E3BDE8700BD8520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7B9DEFC1E3BDE8700BD8520 /* Build configuration list for PBXNativeTarget "SingleViewGoogleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				C7B9DEFE1E3BDE8700BD8520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
