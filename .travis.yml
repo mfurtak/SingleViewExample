@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode8.2
 
-script: travis.sh
+script: bundle exec fastlane beta
