@@ -2,11 +2,10 @@
 
 source "https://rubygems.org"
 
-local_fastlane_path = "/Users/mfurtak/code/fastlane/fastlane"
+# local_fastlane_path = "/Users/mfurtak/code/fastlane/fastlane"
 
 # if File.exist?(File.join(File.expand_path(local_fastlane_path), "fastlane.gemspec"))
 #   local_fastlane_path = File.expand_path("..", local_fastlane_path)
 # end
 
-gem "xcode-install"
-gem "fastlane", path: local_fastlane_path
+gem "fastlane", "2.18.3"
